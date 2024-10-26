@@ -8,7 +8,7 @@ import os
 import string
 import audio_engine
 
-# flag = flag{y0u_
+flag = flag{y0u_
 with open("../SECRET/flag.txt", "r") as fp:
     flag = fp.read().strip()
 flag = flag.encode().hex()
